@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: #000;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.netflix-titulo {
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+	color: #ff0000;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 1px;
+
+}
+
+.assistindo {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.perfis {
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.perfis img {
+	opacity: 0.8;
+	margin-left: 20px;
+}
+
+.perfis img:hover {
+	opacity: 10;
+	border: 4px solid #fff;
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+.perfis img:active {
+	border-color: #ff0000;
+}
+
+.perfis p {
+	padding-top: 15px;
+	text-align: center;
+	margin-left: 20px;
+	color: #fff;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.surpreenda-me {
+	display: flex;
+	padding-top: 40px;
+	padding-left: 400px;
+}
+
+.surpreenda-me p {
+	color: #fff;
+	background-color: #696969;
+	border-radius: 3px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 15px;
+}
+
+.surpreenda-me p:hover {
+	border: 2px solid #fff;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.surpreenda-me p:active {
+	border-color: #ff0000;
+}
